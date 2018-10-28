@@ -13,7 +13,6 @@ class Counter extends Component {
   componentDidMount() {
     console.log("Counter componentDidMount");
   }
-
   ///you can use an arrow function in the callback: The problem with this syntax
   ///is that a different callback is created each time the LoggingButton renders.
   ///In most cases, this is fine. However, if this callback is passed as a prop to
@@ -65,5 +64,4 @@ class Counter extends Component {
     return value === 0 ? "Zero" : value;
   }
 }
-
 export default Counter;

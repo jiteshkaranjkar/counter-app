@@ -68,5 +68,4 @@ class App extends Component {
     this.setState({ counters });
   };
 }
-
 export default App;

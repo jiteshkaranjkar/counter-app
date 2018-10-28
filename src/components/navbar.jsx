@@ -3,7 +3,7 @@ import React, { Component } from "react";
 ///Stateless Fucntional Component
 
 const NavBar = props => {
-  console.log("NAvbar Render");
+  console.log("Navbar Render");
   return (
     <nav className="navbar navbar-light bg-light">
       <a className="navbar-brand" href="#">
@@ -15,5 +15,4 @@ const NavBar = props => {
     </nav>
   );
 };
-
 export default NavBar;
